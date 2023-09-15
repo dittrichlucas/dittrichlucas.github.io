@@ -1,0 +1,51 @@
+baseURL = 'https://dittrichlucas.github.io/'
+languageCode = 'en-us'
+title = 'Lucas Dittrich'
+theme = 'nightfall'
+enableEmoji = true
+
+[params]
+author = "Lucas Dittrich"
+user = "dittrichlucas"
+hostname = "github.io"
+
+published = true
+readingTime = true
+
+[[params.social]]
+key = 0
+name = "github"
+url = "https://github.com/gohugoio"
+icon = "fa-brands fa-github"  # Add link to your icon font to `layouts/partials/custom-head.html`
+
+[[params.social]]
+key = 1
+name = "github"
+url = "https://www.example.com"
+
+[[params.social]]
+key = 2
+name = "linkedin"
+url = "https://www.example.com"
+rel = "me"  # You can also add rel to social link
+
+[[params.social]]
+key = 3
+name = "email"
+url = "mailto:email@example.com"
+
+[[params.social]]
+key = 4
+name = "instagram"
+url = "mailto:email@example.com"
+
+[menu]
+  [[menu.header]]
+    name = "about"
+    weight = 0
+    url = "/about"
+    
+  [[menu.header]]
+    name = "posts"
+    weight = 0
+    url = "/posts"
