@@ -4,6 +4,7 @@ title = 'Lucas Dittrich'
 theme = 'nightfall'
 enableEmoji = true
 publishDir = './docs'
+disqusShortname = 'ldittrich'
 
 [params]
 author = "Lucas Dittrich"
@@ -16,29 +17,26 @@ readingTime = true
 [[params.social]]
 key = 0
 name = "github"
-url = "https://github.com/gohugoio"
-icon = "fa-brands fa-github"  # Add link to your icon font to `layouts/partials/custom-head.html`
-
-[[params.social]]
-key = 1
-name = "github"
-url = "https://www.example.com"
+url = "https://www.github.com/dittrichlucas"
+icon = "fa-brands fa-github"
 
 [[params.social]]
 key = 2
 name = "linkedin"
-url = "https://www.example.com"
-rel = "me"  # You can also add rel to social link
+url = "https://www.linkedin.com/in/ldittrich/"
+icon = "fa-brands fa-linkedin"
 
 [[params.social]]
 key = 3
 name = "email"
-url = "mailto:email@example.com"
+url = "mailto:ld.dittrich@gmail.com"
+icon = "fa-solid fa-envelope"
 
 [[params.social]]
 key = 4
 name = "instagram"
-url = "mailto:email@example.com"
+url = "https://www.instagram.com/ldittrich"
+icon = "fa-brands fa-instagram"
 
 [menu]
   [[menu.header]]
